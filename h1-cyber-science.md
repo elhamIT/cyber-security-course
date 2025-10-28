@@ -1,7 +1,7 @@
 # h1 - Cyber Science
 
 For this homework, I went on a little **Science Hunt** to track down a paper on cybersecurity in software development, since it is closely related to my profession. 
-I chose the keyword **Secure Software Development Lifecycle (SSDLC)** since it’s all about baking security into DevOps rather than bolting it on at the end.
+I chose the keyword **Secure Software Development Lifecycle (SSDLC)** since it’s all about baking security into DevOps rather than bolting it on at the end. I set up a Google Scholar alert to receive articles related to this subject too.
 
 Here is the article I picked: 
 _**Zhao et al. (2024). Identifying the primary dimensions of DevSecOps: A multi-vocal literature review. Journal of Systems and Software, 214, 112063. https://doi.org/10.1016/j.jss.2024.112063**_ 
