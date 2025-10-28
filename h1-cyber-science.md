@@ -1,6 +1,6 @@
 # h1 - Cyber Science
 
-For this homework, I went on a little **Science Hunt** to track down a paper on cybersecurity in software development. 
+For this homework, I went on a little **Science Hunt** to track down a paper on cybersecurity in software development, since it is closely related to my profession. 
 I chose the keyword **Secure Software Development Lifecycle (SSDLC)** since it’s all about baking security into DevOps rather than bolting it on at the end.
 
 Here is the article I picked: 
