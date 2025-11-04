@@ -1,6 +1,7 @@
 # Cyber moves fast. 
 
-In this assignment, we'll start following the scene. As part of **h2**, I've listened to a podcast, read a blog article, tried summarize them and finally science that by trying to link some theory, model or article you read in h1 CyberScience to a blog post or podcast episode I found here. 
+In this assignment, we'll start following the scene. 
+As part of **h2**, I've listened to a podcast, read a blog article, tried summarize them and finally science that by trying to link the theory or model from the article in [h1-Cyber Science](https://github.com/elhamIT/cyber-security-course/blob/main/h1-cyber-science.md) to the blog post and podcast episode I found here. 
 
 ## [Darknet Diaries, EP 153: Bike Index](https://darknetdiaries.com/transcript/153/)
 
@@ -23,7 +24,7 @@ Here I have gathered the summary for this podcast:
 
 ## [Schneier on Security, Autonomous AI Hacking and the Future of Cybersecurity](https://www.schneier.com/blog/archives/2025/10/autonomous-ai-hacking-and-the-future-of-cybersecurity.html)
 
-I read this article since the topic sound quite interesting to me and I have summarized it:
+I read this blog article since the topic sound quite interesting to me and I have summarized it:
 
 * AI agents in hacking are now emerging at speed, scale and sophistication: they automate reconnaissance, exploitation, credential theft, even ransom demands.
   
