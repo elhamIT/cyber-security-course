@@ -93,7 +93,7 @@ Following the feeds with a reader would have some benefits and downsides.
    
 3. Scanned local machine using followng command:
    * `sudo nmap -A -v localhost`
-   * Few ports open (like _631/cups_ if services running).
+   * Port _631/cups_ is running.
   
    ![My Image](images/scannedport.jpg)
     
