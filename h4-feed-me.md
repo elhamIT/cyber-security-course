@@ -97,12 +97,14 @@ Following the feeds with a reader would have some benefits and downsides.
   
    ![My Image](images/scannedport.jpg)
     
-4. Installed Apache2 using following commands:
+4. Connected to network and installed Apache2 using following commands:
    * `sudo apt-get install apache2`
    * `sudo systemctl start apache2`
-5. Scanned again using following command:
+5. Disconnected the VM from Internet and verifyied `ping 8.8.8.8` fails and then scanned again using following command:
    * `sudo nmap -A -v localhost`
    * Now port 80/tcp (HTTP) visible which confirms service added.
+
+  ![My Image](images/scanning.jpg)
   
 ### Analysis:
 * Nmap lists open ports (services "listening" for connections).
