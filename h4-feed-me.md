@@ -87,7 +87,7 @@ Following the feeds with a reader would have some benefits and downsides.
 1. Installed nmap port scanner using follwoing commands:
    * `sudo apt-get update`
    * `sudo apt-get install nmap`
-2. Disconnected VM from the Internet (verified with):
+2. Disconnected VM from the Internet. I disconnected the VM from internet by modifying the settings of the VM, my **VM** -> **Settings** -> **Network** -> **Adapter 1** -> uncheck **Enable Network Adapter**. Verified with:
 
    ![My Image](images/nonetwork.jpg)
    
