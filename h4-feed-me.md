@@ -84,4 +84,28 @@ Following the feeds with a reader would have some benefits and downsides.
   - Not interactive. You can’t easily comment or discuss within the reader.
 
 ## Port Scan (localhost only, offline)
+1. Installed nmap port scanner using follwoing commands:
+   * `sudo apt-get update`
+   * `sudo apt-get install nmap`
+2. Disconnected VM from the Internet (verified with):
 
+   ![My Image](images/nonetwork.jpg)
+   
+3. Scanned local machine using followng command:
+   * `sudo nmap -A -v localhost`
+   * Few ports open (like _631/cups_ if services running).
+  
+   ![My Image](images/scannedport.jpg)
+    
+4. Installed Apache2 using following commands:
+   * `sudo apt-get install apache2`
+   * `sudo systemctl start apache2`
+5. Scanned again using following command:
+   * `sudo nmap -A -v localhost`
+   * Now port 80/tcp (HTTP) visible which confirms service added.
+  
+### Analysis:
+* Nmap lists open ports (services "listening" for connections).
+* Criminals could use similar scans remotely to identify what software a company runs (e.g., web server, database, mail system).
+* Shows why firewalls, access control, and patching are critical.
+* Ethical scanning: only allowed for your own systems or with permission.
