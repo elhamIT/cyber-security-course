@@ -16,14 +16,17 @@ Cybersecurity is about protecting:  **Data**, **Systems**, **Networks**
 
 Here is an example code for hashing a password using Python:  
 
-```python
+```
+python
 import hashlib  
 
 password = "mypassword"  
 hashed = hashlib.sha256(password.encode()).hexdigest()  
 print(hashed)
+```
 
 ## References
 * https://terokarvinen.com/cyber-security/
 * https://terokarvinen.com/2023/create-a-web-page-using-github/  
+
 
