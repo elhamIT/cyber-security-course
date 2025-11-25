@@ -82,3 +82,11 @@ For this purpose, I have considered this recent event: Palo Alto Networks launch
 * But it also shows a gap: the article says measurement and metrics and global, process and culture issues are weak, and we need evaluation of these tools, metrics to show their effectiveness, and process and culture adoption.
 
 * Thus, this event sits at the junction: theory (DevSecOps model), threat (autonomous AI hacking), and practical response (new AI security platforms).
+
+## References
+* https://terokarvinen.com/cyber-security/
+* https://github.com/elhamIT/cyber-security-course/blob/main/h1-cyber-science.md
+* https://darknetdiaries.com/
+* https://darknetdiaries.com/transcript/153/
+* https://www.schneier.com/
+* https://www.schneier.com/blog/archives/2025/10/autonomous-ai-hacking-and-the-future-of-cybersecurity.html
