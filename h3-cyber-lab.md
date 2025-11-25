@@ -36,3 +36,11 @@ The VM runs smoothly and is ready for Linux command-line and cybersecurity exerc
 ## Cracking Passwords with Hashcat
 I installed `hashcat` and followed the steps in the article to crack the example hash. Unfortunatelly I faced an error `* Device #1: Not enough allocatable device memory for this attack.`. I am trying to figure out the issue and increase the memory of VM and see how it goes.
 Once done with this, I'll try to do John the Ripper (Install and test John the Ripper Jumbo).
+
+## References
+* https://terokarvinen.com/cyber-security/
+* https://terokarvinen.com/2020/command-line-basics-revisited/
+* https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+* https://virtualbox.org/
+* https://www.debian.org/distrib/
+* https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-xfce.iso
