@@ -133,3 +133,12 @@ Here, the goal is to run a stealthier Nmap scan that does NOT show up in Apache 
 * Therefore, using `-sS` (or NULL/FIN/Xmas scans) allows Nmap to identify open ports without being detected by Apache’s logs.
 
 ![My Image](images/syn.jpg)
+
+## References
+* https://terokarvinen.com/cyber-security/
+* https://www.finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/2003/36
+* https://krebsonsecurity.com/feed/
+* https://www.schneier.com/feed/atom/
+* https://www.thunderbird.net/en-US/
+* https://thehackernews.com/feeds/posts/default
+* https://www.bleepingcomputer.com/feed/
