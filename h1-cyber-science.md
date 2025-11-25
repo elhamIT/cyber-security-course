@@ -49,5 +49,9 @@ DevSecOps is no longer a **nice-to-have**, but the repo still has lots of open i
 
 In short: DevSecOps is growing up fast, but still in an early release cycle; Plenty of exciting features (and bugs of course) left for future research to fix.
 
-
-
+## References
+* https://terokarvinen.com/cyber-security/
+* https://terokarvinen.com/review-article/
+* https://jfp.csc.fi/jufoportal
+* https://scholar.google.com/ncr
+* https://doi.org/10.1016/j.jss.2024.112063
