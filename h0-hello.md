@@ -24,6 +24,6 @@ hashed = hashlib.sha256(password.encode()).hexdigest()
 print(hashed)
 
 ## References
-
-https://terokarvinen.com/2023/create-a-web-page-using-github/  
+* https://terokarvinen.com/cyber-security/
+* https://terokarvinen.com/2023/create-a-web-page-using-github/  
 
