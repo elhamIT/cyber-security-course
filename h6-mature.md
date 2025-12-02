@@ -47,6 +47,53 @@ _Don't build a giant fence and leave the door open. Spreadsheets don't think. Yo
 * Its design is sector-agnostic and technology-agnostic: suitable for critical infrastructure, small companies, or public institutions.
 * The spreadsheet helps produce a quantifiable output (scores, maturity levels) that can be tracked over time, enabling follow-up assessments and measuring progress.
 
+## Make-belief analysis
+Here is a short story of choosing a couple of subpoints in Kybermittari with imaginary persons with roles, who talk to each other, to decide and comment on maturity. 
+
+_Chosen Kybermittari Domain_ is **3. Threat & Vulnerability Management**.
+
+_Chosen Subpoints_ are **3b, Adequate resources (people, funding, and tools) are provided to support activities in the THREAT domain** and **3f, Patch management process**.
+
+My _Make-Belief Team_ with imaginary characters are: **Sami (IT Security Specialist), Laura (CFO (finance, non-technical)), Oskari (Head of Operations), Merja (External Cybersecurity Consultant)**
+
+### Short Story for Subpoint 3b, Adequate resources (people, funding, and tools) are provided to support activities in the THREAT domain
+Let's consider following conversation in my imaginary team meeting about adequate resources (people, funding, and tools) which are provided to support activities in the THREAT domain (For this part I used chat-gpt for imaginary dialouge creation): 
+
+```
+Sami (IT Security Specialist): "Right now, cybersecurity is just part of my job. We don’t have a dedicated security team, and I handle threat monitoring in between other tasks."
+
+Laura (CFO): "There’s no separate budget line for cybersecurity. If we need a tool, we request it during the year — there’s no planned funding."
+
+Oskari (Operations): "We don’t have clear roles or backup personnel. If Sami is on holiday, nobody monitors threats."
+
+Merja (Consultant): "Kybermittari says ‘adequate resources’ means dedicated roles, budget, and tooling. You do have some tools, but neither defined roles nor predictable funding. That matches MIL 2, Basic."
+```
+
+**Decision for 3b, Adequate resources (people, funding, and tools) are provided to support activities in the THREAT domain:**
+* **MIL**: 2, Basic
+* **Reason**: Some tools exist and one person handles security tasks, but there is no dedicated budget, no formal responsibilities, and no staffing redundancy.
+
+### Short Story for Subpoint 3f, The effectiveness of activities in the THREAT domain is evaluated and tracked
+Let's consider following conversation in my imaginary team meeting about the effectiveness of activities in the THREAT domain (For this part I used chat-gpt for imaginary dialouge creation):
+
+```
+Sami: "We react to phishing emails and suspicious logins, but we don’t measure anything. We don’t track how long it takes to respond or whether cases are increasing or decreasing."
+
+Oskari: "We had a ransomware scare last spring, but after we solved it, nobody documented lessons learned or post-incident metrics."
+
+Laura: "So we don’t produce monthly or quarterly security reports?"
+
+Merja: "Correct. To reach MIL 2 or 3, you would need: KPIs, dashboards or logs reviewed regularly, evidence of improvement over time. Right now, it is ad hoc and not tracked.”
+```
+
+**Decision for 3f, The effectiveness of activities in the THREAT domain is evaluated and tracked:** 
+* **MIL**: 1, Initial
+* **Reason:** Threat response happens informally, but no metrics, no tracking, no reporting, and no evidence of improvement.
+
+![My Image](images/kybermittari1.jpg)
+
+![My Image](images/kybermittari2.jpg)
+
 ## Sucks or succeeds
 
 Here I will try to answer how could Kybermittari process be really useless and how could it be really useful?
