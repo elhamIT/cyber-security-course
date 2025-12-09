@@ -1,143 +1,144 @@
-# h7 SecuDream, Cyber Security Course of My Dreams
+# h7 SecuDream™, Cyber Security Course of My Dreams
 
-## Goals
+SecuDream™ is a cybersecurity course designed entirely for my own interests and learning goals.  
+It focuses on **practical, realistic, developer-friendly security**, with an emphasis on  
+API security, secure software development, DevSecOps mindset, and understanding real threats  
+without needing overly complex hands-on labs.
 
-The main goals after the course, are that now me as a student:
+## Course Goals
 
-* can **secure a small web application** using basic best practices (external secrets, authentication, scanning)
-* understands **core offensive and defensive tools** (nmap, hashcat, feed monitoring, OSINT)
-* can **assess organizational security maturity** using a practical framework (e.g. Kybermittari)
-* can **explain security concepts to non-specialists** using plain language and examples
+After completing SecuDream™, the student…
+
+1. **Understands how modern cyber attacks work** (at a conceptual and practical level).  
+2. **Can securely develop and maintain applications**, especially APIs and cloud-connected systems.  
+3. **Recognizes the importance of secret management, authentication, and secure defaults** in software.  
+4. **Understands organizational cybersecurity**: maturity models, risk thinking, and communication across teams.  
+5. **Feels confident discussing security issues** with developers, managers, and non-technical stakeholders.
+
+## Course Agenda (Themes per Session)
+
+### **1. Cybersecurity Today: Threat Landscape & Mindset**
+- Realistic overview of attacks affecting companies today  
+- Why cyber matters for software developers  
+- Thinking like an attacker vs defender  
+
+### **2. Secure Software Development Basics**
+- The biggest causes of vulnerabilities in software  
+- Secure coding principles, code reviews, input validation  
+
+### **3. API Security 101**
+- What can go wrong in REST APIs  
+- Authentication, authorization, tokens, JWT  
+- Why **never hard-code secrets**  
+
+### **4. Secret Management for Developers**
+- Environment variables, vaults, and GitHub secrets  
+- Common developer mistakes & how to avoid them  
+
+### **5. DevSecOps Mindset**
+- Security in CI/CD pipelines  
+- Dependency scanning, SAST/DAST basics  
+- Security automation for developers  
+
+### **6. Cloud Security Fundamentals**
+- How cloud misconfigurations lead to breaches  
+- Identity and access control in the cloud  
+
+### **7. Organizational Security & Cyber Maturity**
+- Simple frameworks (NIST CSF, Kybermittari)  
+- How to evaluate an organization's strengths and weaknesses  
+- Incident response basics  
+
+### **8. Social Engineering & Human Factors**
+- Why humans remain the #1 attack vector  
+- Analysis of phishing, scams, fraud, and deception  
+
+### **9. Group Case: “Breach Simulation”**
+- Students work in small teams to analyze a fictional breach scenario  
+- Identify root causes, impacts, and prevention measures  
+- Group presentation of findings  
+
+### **10. Final Session: Bringing It All Together**
+- Build a personal “Security Improvement Plan”  
+- Discussion: how to continue security learning in real life  
 
 
-## Outline / Agenda (themes per session)
-We covered different kind of themes on each session, here is the summary of the themes we have gone through and learnt:
+## Exercises & Learning Activities
 
-1. **Overview of current security scene**
+This course avoids heavy technical complexity and instead focuses on **practical understanding**  
+and **discussion-based learning**.
 
-2. **Cyber Reality Check**  
-   - Threat landscape, feed readers, podcast and blog summaries
+### Types of exercises:
 
-3. **Linux for Security**  
-   - Installing Debian in VM, and command line basics
+- **Guided class discussions**
+  - “What should a secure API look like?”  
+  - “How would a small company defend against phishing?”  
 
-4. **Port Scanning**  
-   - nmap on localhost and discovering services
+- **Group analysis sessions**
+  - Solve a fictional incident as a team  
+  - Evaluate an organization using a light maturity model  
 
-5. **Passwords & Cracking**  
-   - Hashes, hashcat, password policies
+- **Mini hands-on demos (teacher-led)**
+  - Viewing secrets leaked in a Git repo  
+  - Demonstration of insecure vs secure API endpoints  
 
-6. **Encryption & Password Management**  
+- **Short written reflections**
+  - Summaries of a security podcast, blog, or article  
+  - “What did I learn from today’s topic?”  
 
-7. **Cybermaturity Workshop**  
-   - Kybermittari
+- **Design tasks**
+  - Create a simple secure architecture for an app  
+  - Draft a security checklist for developers  
+
+### Optional practicals
+(Not required to complete technically, but explained and demonstrated.)
+
+- Why and how port scanning works  
+- What password hashing means  
+- GitHub secret scanning examples  
 
 
-## Exercises
+## Special Guest(s) and Excursions
 
-The course covered different types of exercises, from both theoritical and practical aspects. The variety of the exercises were as follows:
+In my dream course, we would invite **guest speakers** who can explain complex topics in a  
+practical, inspiring way — especially those known in Finland for cyber and secure development.
 
-* **Hands-on Labs Experience**
-  - Running port scans in VM
-  - Cracking demo password hashes with hashcat
+### Possible guest speakers:
+- **Mikko Hyppönen** — (F-Secure / WithSecure) on global threat landscape  
+- **Laura Kankaala** — (Hack the TV) practical hacking stories and Q&A  
+- **Juho Juntunen** — Finnish cloud security speaker  
+- Experienced **DevSecOps engineer** from a Finnish tech company  
+- Someone from **Traficom / NCSC-FI** on incident trends in Finland  
 
-* **Written Reflections**
-  - Listening to security related Podcasts, reading blog posts about it, finding academic article and trying to connect them to each other
-  - Making security improvement plan for a small organization
+### Special event idea:
+- **Visit to NCSC-FI (Kyberturvallisuuskeskus)**  
+  - Learn how national-level incident response works  
+- **Mini cyber escape room**  
+  - Solve small puzzles around secrets, phishing, and misconfigurations  
 
-* **Group Work**
-  - Kybermittari maturity discussion with multiple roles in a group work
-  - Discussion about how getting news about cyber security and feeds in a group
 
-* **Encryption & Password Management**
-  - Encrypting a message using PGP
-  - Importance of using password management like KeePassXC
+## Rationale for My Choices
 
-## Models and Frameworks
+- I am a **software developer**, so my dream course focuses on **practical development security**  
+  rather than deep offensive hacking or complex forensics.
+- I want to understand **realistic threats** without needing to build large lab environments.
+- Secret management, API security, and DevSecOps automation feel extremely relevant to  
+  modern software teams — and highly applicable in my future work.
+- I enjoy learning through **discussion, case analysis, and demonstrations**,  
+  rather than purely technical CTF challenges.
+- Understanding **organizational maturity and communication** helps bridge gaps between  
+  developers, security, and business — which is essential in real workplaces.
 
-* **OWASP Top 10**: practical web risks
-* **Kybermittari / Cybermeter**: rapid maturity assessment
-* **NIST Cybersecurity Framework (CSF)**: Identify, Protect, Detect, Respond and Recover
-* **CIS Controls**: prioritised security controls for small organizations
-* **OWASP Cheat Sheet Series**: short practical rules for real devs
 
-## Visiting Lecturers & Special Events
+## Summary
 
-Throughout the course, several lectures and special sessions enriched the learning experience. A few highlights:
+SecuDream™ is a course designed for **modern developers and future security-conscious engineers**.  
+It balances conceptual understanding, realistic case work, guided demos, and high-quality discussions  
+with guest speakers who bring real-world experience.  
 
-### **Week 44: Security in Cloud & Modern Threats**  
-* Introduction to **Google Cloud security**  
-* Overview of **current cyber threats and business impact**  
-* **Passwordless authentication** and modern identity methods
+The course aims to make cybersecurity **practical, understandable, and useful**,  
+especially for people who want to improve software security without becoming full-time hackers.
 
-### **Week 45: SOC Operations & Secure Web Development**  
-* End-user security from a **SOC analyst’s perspective**  
-* Managing cybersecurity risks in **web application development**
-
-### **Week 46: Auth, DevSecOps & DDoS Attacks**  
-* Authentication basics and cryptographic hashing  
-* **DevSecOps** and integrating security in the pipeline  
-* Real-world case of **Mirai botnet and DDoS**
-
-### **Week 47: Business Continuity & Social Engineering**  
-* Social engineering case: **draining bank accounts with lies**  
-* Cloud backup and recovery for **business continuity**
-
-### **Week 48: Security Maturity & Procurement**  
-* Cyber security considerations in **SaaS procurement**  
-* Fundamentals of **network firewalls and tunneling**
-
-### **Week 49: Network Security, API Security & Cryptocurrencies**  
-* Underlay and overlay **network security**  
-* Student presentation: **Stop Hard-Coding Secrets — Practical API Security in Spring Boot**  
-* Overview of **cryptocurrencies and security implications**
-
-These sessions combined technical knowledge with management, cloud, DevSecOps, continuity, and real-world cases, which is the exact combination that inspired the design of SecuDream.
-
-## What I Learned from the Lectures
-
-Across the different weeks, the lectures showed how **broad, practical, and interconnected** cybersecurity really is.
-
-### **Cloud Security & Modern Threats**
-I learned how cloud environments shift security towards identity, configuration, and continuous monitoring. Threats impact not only systems but also business reputation and continuity.
-
-### **SOC & Secure Web Development**
-Seeing security from a SOC perspective helped me understand day-to-day defense. The web development talk connected directly to my developer background: secure defaults and correct secret handling matter more than I realized.
-
-### **Authentication, DevSecOps & DDoS**
-Foundational concepts like hashing became clearer, and DevSecOps showed how automation brings security into daily development. The Mirai case demonstrated how small weaknesses can scale into large global attacks.
-
-### **Business Continuity & Social Engineering**
-These sessions highlighted the human factor, how social engineering bypasses all technical controls. Backup and recovery are business-level survival skills, not just IT tasks.
-
-### **Security Maturity & Procurement**
-I learned how to evaluate SaaS vendors and why procurement is a critical part of cyber resilience. This tied nicely to the Kybermittari maturity work.
-
-### **Network Security, API Security & Cryptocurrencies**
-The final lectures showed how application, network, and financial technologies intersect. My own API security presentation reinforced how even small developer habits influence organizational security.
-
-## Rationale
-
-I am a Software Developer, so I want realistic developer-oriented security tasks
-* Debian VM labs make risks **real but safe**
-* Kybermittari connects **technical issues with management language**
-* I believe the future of cyber is in:
-  - DevSecOps automation  
-  - API security  
-  - Supply chain security (Git, dependencies, CI)
-
-## Think Outside the Box
-
-* **Live Red vs Blue Game**  
-  Two teams: attackers and defenders, with post-mortem discussion
-
-* **Simulated Breach Day**  
-  Roleplay: CIO, helpdesk, incident responder, PR
-
-* **AI Assistant for Cyber Training**  
-  Personalized labs, instant feedback on configuration files
-
-So, Budget: unlimited. Creativity: encouraged.
 
 ## References
 * https://terokarvinen.com/cyber-security/
